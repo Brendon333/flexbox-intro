@@ -1,0 +1,89 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        .main {
+            color: white;
+            background-color: darkblue;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        .hamburger {
+            color: black;
+            margin: 20px;
+            display: none;
+        }
+
+        @media (min-width: 48em) {
+            .hamburger {
+                display: flex;
+            }
+            .link_1,
+            .link_2,
+            .link_3 {
+                display: flex;
+                flex: 1;
+            }
+            
+        }
+
+        .name {
+            margin: 20px;
+
+        }
+
+        .link_1 {
+            margin: 20px;
+        }
+
+        .link_2 {
+            margin: 20px;
+        }
+
+        .link_3 {
+            margin: 20px;
+        }
+
+        @media (max-width: 48em) {
+
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="name">
+            <a href="#">Brendon Goodsell</a>
+        </div>
+        <div class="link_1">
+            <a href="#">Link1</a>
+        </div>
+        <div class="link_2">
+            <a href="#">Link2</a>
+        </div>
+        <div class="link_3">
+            <a href="#">Link3</a>
+        </div>
+    </div>
+</body>
+
+<script>
+</script>
+
+</html>
